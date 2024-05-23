@@ -1,5 +1,6 @@
 U54107257
-// cc_1.js
+
+// cc_1 Steven's Tip Calculator
 const bill = 275;
 const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was $${bill}, the tip was $${tip}, and the total value $${bill + tip}`);
@@ -9,7 +10,7 @@ const calcTip = (bill) => {
     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 }
 
-// Test the function
+// Test the function.
 const testbill = 100;
 console.log(`The tip for a $${testBill} bill is $${calcTip(testBill)}`);
 
